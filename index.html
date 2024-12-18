@@ -29,8 +29,8 @@
             document.getElementById('user-input1').value = localStorage.getItem('subject1');
           }
         document.getElementById('user-input1').addEventListener('input', function () {
-          const subject = document.getElementById('user-input1').value;
-          document.getElementById('The1stClass').innerHTML = subject;
+          const subject1 = document.getElementById('user-input1').value;
+          document.getElementById('The1stClass').innerHTML = subject1;
           localStorage.setItem('subject1', subject);
         });
       </script>
@@ -53,7 +53,7 @@
       </script>
         <form>
         <label for="user-input3"></label>
-        <input type="text" id="user-input1" name="user-input3" placeholder="none">
+        <input type="text" id="user-input3" name="user-input3" placeholder="none">
         </form>
       <script>
         window.onload = function() {
